@@ -24,8 +24,15 @@ contract Staker {
     // Add the `receive()` special function that receives eth and calls stake()
     mapping ( address => uint256 ) public balances;
     uint256 public constant threshold = 1 ether;
+    event Stake(address indexed user, uint256 amount);
 
     function stake() public payable {
+        require(msg.value > 0, "Must stake a positive amount");
 
+        // Update user's balance and total staked amount
+        balances[msg.sender] += msg.value;
+
+        //Emit an event for transparency
+        emit Stake(msg.sender, msg.value);
     }
 }
