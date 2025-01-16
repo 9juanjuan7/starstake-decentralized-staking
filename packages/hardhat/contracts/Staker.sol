@@ -48,7 +48,16 @@ contract Staker {
         if (address(this).balance >= threshold) {
             exampleExternalContract.complete{value: address(this).balance}();
         } else {
-            openForWithdraw = true;
-            emit Execute(false, address(this).balance);
+        openForWithdraw = true;
+        emit Execute(false, address(this).balance);
         }
     }
+    // Returns how much time is left
+    function timeleft() public view returns (uint256) {
+        if (block.timestamp >= deadline) {
+            return 0;
+        } else {
+            return deadline - block.timestamp;
+        }
+    }
+}
