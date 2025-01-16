@@ -23,8 +23,14 @@ contract Staker {
 
     // Add the `receive()` special function that receives eth and calls stake()
     mapping ( address => uint256 ) public balances;
+
     uint256 public constant threshold = 1 ether;
-    event Stake(address indexed user, uint256 amount);
+    uint256 public deadline = block.timestamp + 30 seconds; //tracks the deadline for staking
+    bool public openForWithdraw; //indicates if a user can withdraw funds
+
+
+    event Stake(address indexed user, uint256 amount); // logs staking
+    event Execute(bool success, uint256 balance); // logs execution
 
     function stake() public payable {
         require(msg.value > 0, "Must stake a positive amount");
@@ -35,4 +41,14 @@ contract Staker {
         //Emit an event for transparency
         emit Stake(msg.sender, msg.value);
     }
-}
+    function execute() public {
+        require(block.timestamp >= deadline, "Deadline not reached");
+        require(!exampleExternalContract.completed(), "Already executed");
+
+        if (address(this).balance >= threshold) {
+            exampleExternalContract.complete{value: address(this).balance}();
+        } else {
+            openForWithdraw = true;
+            emit Execute(false, address(this).balance);
+        }
+    }
