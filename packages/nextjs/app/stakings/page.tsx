@@ -5,6 +5,12 @@ import { formatEther } from "viem";
 import { Address } from "~~/components/scaffold-eth";
 import { useScaffoldEventHistory } from "~~/hooks/scaffold-eth";
 
+// Define a type for the event arguments
+interface StakeEventArgs {
+  user: string;
+  amount: bigint;
+}
+
 const Stakings: NextPage = () => {
   const { data: stakeEvents, isLoading } = useScaffoldEventHistory({
     contractName: "Staker",
@@ -18,6 +24,7 @@ const Stakings: NextPage = () => {
         <span className="loading loading-spinner loading-lg"></span>
       </div>
     );
+
   return (
     <div className="flex items-center flex-col flex-grow pt-10">
       <div className="px-5">
@@ -36,18 +43,19 @@ const Stakings: NextPage = () => {
           <tbody>
             {!stakeEvents || stakeEvents.length === 0 ? (
               <tr>
-                <td colSpan={3} className="text-center">
+                <td colSpan={2} className="text-center">
                   No events found
                 </td>
               </tr>
             ) : (
-              stakeEvents?.map((event, index) => {
+              stakeEvents.map((event, index) => {
+                const args = event.args as StakeEventArgs; // Explicitly cast args
                 return (
                   <tr key={index}>
                     <td>
-                      <Address address={event.args?.[0]} />
+                      <Address address={args.user} />
                     </td>
-                    <td>{formatEther(event.args?.[1] || 0n)} ETH</td>
+                    <td>{formatEther(args.amount)} ETH</td>
                   </tr>
                 );
               })
