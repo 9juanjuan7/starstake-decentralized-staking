@@ -26,7 +26,7 @@ contract Staker {
     mapping ( address => uint256 ) public balances;
 
     uint256 public constant threshold = 1 ether;
-    uint256 public deadline = block.timestamp + 30 seconds; //tracks the deadline for staking
+    uint256 public deadline = block.timestamp + 72 hours; //tracks the deadline for staking
     bool public openForWithdraw; //indicates if a user can withdraw funds
 
 
