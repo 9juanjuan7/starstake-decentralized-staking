@@ -4,6 +4,7 @@ pragma solidity 0.8.20; //Do not change the solidity version as it negatively im
 import "hardhat/console.sol";
 import "./ExampleExternalContract.sol";
 
+/// @dev Allows users to withdraw only their own staked balance after the deadline if withdrawals are open.
 contract Staker {
     ExampleExternalContract public exampleExternalContract;
 
@@ -31,6 +32,10 @@ contract Staker {
 
     event Stake(address indexed user, uint256 amount); // logs staking
     event Execute(bool success, uint256 balance); // logs execution
+    modifier notCompleted() {
+        require(!exampleExternalContract.completed(), "Operation not allowed; contract already completed.");
+        _;
+    }
 
     function stake() public payable {
         require(msg.value > 0, "Must stake a positive amount");
@@ -41,7 +46,7 @@ contract Staker {
         //Emit an event for transparency
         emit Stake(msg.sender, msg.value);
     }
-    function execute() public {
+    function execute() public notCompleted {
         require(block.timestamp >= deadline, "Deadline not reached");
         require(!exampleExternalContract.completed(), "Already executed");
 
@@ -54,7 +59,7 @@ contract Staker {
     }
 
     //Allows user to withdraw their funds
-    function withdraw() public {
+    function withdraw() public notCompleted {
         require(block.timestamp >= deadline, "Deadline not reached");
         require(openForWithdraw, "Withdrawals not allowed");
         uint256 userBalance = balances[msg.sender];
@@ -71,5 +76,12 @@ contract Staker {
         } else {
             return deadline - block.timestamp;
         }
+    }
+    // Accepts ETH sent to the contract and calls stake() to update balances
+    receive() external payable {
+        if (exampleExternalContract.completed() || openForWithdraw) {
+        revert("Contract is finalized; cannot accept new funds.");
+        }
+        stake();
     }
 }
