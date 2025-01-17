@@ -16,8 +16,8 @@ const Home: NextPage = () => {
         <div className="px-5">
           <h1 className="text-center">
             <span className="block text-2xl mb-2">Welcome to</span>
-            <span className="block text-4xl font-bold">Scaffold-ETH 2</span>
-            <span className="block text-xl font-bold">(SpeedRunEthereum Challenge #1 extension)</span>
+            <span className="block text-4xl font-bold">StarStake</span>
+            <span className="block text-xl font-bold">(By Juan Rea)</span>
           </h1>
           <div className="flex justify-center items-center space-x-2 flex-col sm:flex-row">
             <p className="my-2 font-medium">Connected Address:</p>
@@ -27,32 +27,41 @@ const Home: NextPage = () => {
           <div className="flex items-center flex-col flex-grow pt-10">
             <div className="px-5">
               <h1 className="text-center mb-6">
-                <span className="block text-2xl mb-2">SpeedRunEthereum</span>
-                <span className="block text-4xl font-bold">Challenge #1: 🔏 Decentralized Staking App</span>
+                <span className="block text-4xl font-bold">🔏 Decentralized Staking App</span>
               </h1>
               <div className="flex flex-col items-center justify-center">
                 <Image
-                  src="/hero.png"
+                  src="/starfish.png"
                   width="727"
                   height="231"
-                  alt="challenge banner"
+                  alt="Comical starfish holding money underwater"
                   className="rounded-xl border-4 border-primary"
                 />
                 <div className="max-w-3xl">
-                  <p className="text-center text-lg mt-8">
-                    🦸 A superpower of Ethereum is allowing you, the builder, to create a simple set of rules that an
-                    adversarial group of players can use to work together. In this challenge, you create a decentralized
-                    application where users can coordinate a group funding effort. If the users cooperate, the money is
-                    collected in a second smart contract. If they defect, the worst that can happen is everyone gets
-                    their money back. The users only have to trust the code.
-                  </p>
+                <p className="text-center text-lg font-bold">🛠️ Welcome to StarStake: A Decentralized Staking Platform</p>
+                <p className="text-center text-lg">
+                  A foundational aspect of blockchain is the ability to build trustless systems that allow users to
+                  interact seemlessly without intermediaries. This simple decentralzied app (DApp) highlights Ethereum's
+                  capability to enable collaborative financial efforts.
+                </p>
+                <p className="text-center text-lg font-bold">💡 How It Works:</p>
+                  <ul className="list-disc pl-5 text-lg mt-4 space-y-2">
+                    <li>Users can stake Ether into a smart contract, pooling their funds towards a shared goal.</li>
+                    <li>If the required conditions are met, the pooled funds are transferred to a secondary contract, achieving the collective funding goal.</li>
+                    <li>If the conditions aren't met, users can safely withdraw their stakes, guaranteeing transparency and fairness.</li>
+                  </ul>
+                <p className="text-center text-lg font-bold">🌟 Why StarStake? This DApp showcases:</p>
+                  <ul className="list-disc pl-5 text-lg mt-4 space-y-2">
+                    <li>Decentralized Finance (DeFi) principles -- enables trustless coordination.</li>
+                    <li>Smart Contract Automation -- ensures code is law.</li>
+                    <li>A clean and responsive Web3 User Interface -- built with React, Next.js, and Tailwind CSS.</li>
+                  </ul>
                   <p className="text-center text-lg">
-                    🌟 The final deliverable is deploying a Dapp that lets users send ether to a contract and stake if
-                    the conditions are met, then deploy your app to a public webserver. Submit the url on{" "}
-                    <a href="https://speedrunethereum.com/" target="_blank" rel="noreferrer" className="underline">
-                      SpeedRunEthereum.com
+                  🚀 StarStake is deployed on Sepolia Testnet and is a product of my interest in deFi, blockchain, smart-contract development and the Web3 space.
+                  This is a simple but clear example of Ethereum's power! Check out{" "}
+                    <a href="https://ethereum.org/" target="_blank" rel="noreferrer" className="underline">
+                      Ethereum.org
                     </a>{" "}
-                    !
                   </p>
                 </div>
               </div>

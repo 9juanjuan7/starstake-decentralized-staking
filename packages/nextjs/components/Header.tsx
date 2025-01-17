@@ -100,11 +100,11 @@ export const Header = () => {
           )}
         </div>
         <Link href="/" passHref className="hidden lg:flex items-center gap-2 ml-4 mr-6 shrink-0">
-          <div className="flex relative w-10 h-10">
-            <Image alt="SE2 logo" className="cursor-pointer" fill src="/logo.svg" />
+          <div className="flex relative w-12 h-12">
+            <Image alt="Ethereum logo" className="cursor-pointer" fill src="/Ethereum-01.svg" />
           </div>
           <div className="flex flex-col">
-            <span className="font-bold leading-tight">SRE Challenges</span>
+            <span className="font-bold leading-tight">StarStake</span>
             <span className="text-xs">#1 Decentralized Staking App</span>
           </div>
         </Link>
