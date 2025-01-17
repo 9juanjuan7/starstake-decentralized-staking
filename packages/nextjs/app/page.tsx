@@ -41,7 +41,7 @@ const Home: NextPage = () => {
                 <p className="text-center text-lg font-bold">🛠️ Welcome to StarStake: A Decentralized Staking Platform</p>
                 <p className="text-center text-lg">
                   A foundational aspect of blockchain is the ability to build trustless systems that allow users to
-                  interact seemlessly without intermediaries. This simple decentralzied app (DApp) highlights Ethereum's
+                  interact seemlessly without intermediaries. This simple decentralized app (DApp) highlights Ethereum's
                   capability to enable collaborative financial efforts.
                 </p>
                 <p className="text-center text-lg font-bold">💡 How It Works:</p>
