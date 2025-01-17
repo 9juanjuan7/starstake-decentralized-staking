@@ -52,8 +52,20 @@ contract Staker {
         emit Execute(false, address(this).balance);
         }
     }
+
+    //Allows user to withdraw their funds
+    function withdraw() public {
+        require(block.timestamp >= deadline, "Deadline not reached");
+        require(openForWithdraw, "Withdrawals not allowed");
+        uint256 userBalance = balances[msg.sender];
+        require(userBalance > 0, "No balance to withdraw");
+
+        balances[msg.sender] = 0;
+        (bool sent, ) = msg.sender.call{value: userBalance}("");
+        require(sent, "Failed to send Ether");   
+    }
     // Returns how much time is left
-    function timeleft() public view returns (uint256) {
+    function timeLeft() public view returns (uint256) {
         if (block.timestamp >= deadline) {
             return 0;
         } else {
