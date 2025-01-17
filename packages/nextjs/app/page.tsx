@@ -38,30 +38,39 @@ const Home: NextPage = () => {
                   className="rounded-xl border-4 border-primary"
                 />
                 <div className="max-w-3xl">
-                <p className="text-center text-lg font-bold">🛠️ Welcome to StarStake: A Decentralized Staking Platform</p>
-                <p className="text-center text-lg">
-                  A foundational aspect of blockchain is the ability to build trustless systems that allow users to
-                  interact seemlessly without intermediaries. This simple decentralized app (DApp) highlights Ethereum's
-                  capability to enable collaborative financial efforts.
-                </p>
-                <p className="text-center text-lg font-bold">💡 How It Works:</p>
+                  <p className="text-center text-lg font-bold">
+                    🛠️ Welcome to StarStake: A Decentralized Staking Platform
+                  </p>
+                  <p className="text-center text-lg">
+                    A foundational aspect of blockchain is the ability to build trustless systems that allow users to
+                    interact seamlessly without intermediaries. This simple decentralized app (DApp) highlights
+                    Ethereum&apos;s capability to enable collaborative financial efforts.
+                  </p>
+                  <p className="text-center text-lg font-bold">💡 How It Works:</p>
                   <ul className="list-disc pl-5 text-lg mt-4 space-y-2">
                     <li>Users can stake Ether into a smart contract, pooling their funds towards a shared goal.</li>
-                    <li>If the required conditions are met, the pooled funds are transferred to a secondary contract, achieving the collective funding goal.</li>
-                    <li>If the conditions aren't met, users can safely withdraw their stakes, guaranteeing transparency and fairness.</li>
+                    <li>
+                      If the required conditions are met, the pooled funds are transferred to a secondary contract,
+                      achieving the collective funding goal.
+                    </li>
+                    <li>
+                      If the conditions aren&apos;t met, users can safely withdraw their stakes, guaranteeing
+                      transparency and fairness.
+                    </li>
                   </ul>
-                <p className="text-center text-lg font-bold">🌟 Why StarStake? This DApp showcases:</p>
+                  <p className="text-center text-lg font-bold">🌟 Why StarStake? This DApp showcases:</p>
                   <ul className="list-disc pl-5 text-lg mt-4 space-y-2">
                     <li>Decentralized Finance (DeFi) principles -- enables trustless coordination.</li>
                     <li>Smart Contract Automation -- ensures code is law.</li>
                     <li>A clean and responsive Web3 User Interface -- built with React, Next.js, and Tailwind CSS.</li>
                   </ul>
                   <p className="text-center text-lg">
-                  🚀 StarStake is deployed on Sepolia Testnet and is a product of my interest in deFi, blockchain, smart-contract development and the Web3 space.
-                  This is a simple but clear example of Ethereum's power! Check out{" "}
+                    🚀 StarStake is deployed on Sepolia Testnet and is a product of my interest in DeFi, blockchain,
+                    smart-contract development, and the Web3 space. This is a simple but clear example of
+                    Ethereum&apos;s power! Check out{" "}
                     <a href="https://ethereum.org/" target="_blank" rel="noreferrer" className="underline">
                       Ethereum.org
-                    </a>{" "}
+                    </a>
                   </p>
                 </div>
               </div>

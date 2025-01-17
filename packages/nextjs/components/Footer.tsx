@@ -2,9 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { hardhat } from "viem/chains";
 import { CurrencyDollarIcon, LightBulbIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-import { HeartIcon } from "@heroicons/react/24/outline";
 import { SwitchTheme } from "~~/components/SwitchTheme";
-import { BuidlGuidlLogo } from "~~/components/assets/BuidlGuidlLogo";
 import { Faucet } from "~~/components/scaffold-eth";
 import { useTargetNetwork } from "~~/hooks/scaffold-eth/useTargetNetwork";
 import { useGlobalState } from "~~/services/store/store";
@@ -53,12 +51,19 @@ export const Footer = () => {
             </div>
             <span>·</span>
             <div className="text-center">
-              <a href="https://www.linkedin.com/in/juan-rea7/" target="_blank" rel="noreferrer" className="underline">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/juan-rea7/" target="_blank" rel="noreferrer" className="underline">
+                LinkedIn
+              </a>
             </div>
             <span>·</span>
             <div className="text-center">
               Powered by{" "}
-              <a href="https://github.com/scaffold-eth/scaffold-eth-2" target="_blank" rel="noreferrer" className="underline">
+              <a
+                href="https://github.com/scaffold-eth/scaffold-eth-2"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
                 Scaffold-ETH 2
               </a>
             </div>
