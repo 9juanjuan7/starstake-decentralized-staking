@@ -25,7 +25,7 @@ contract Staker {
     // Add the `receive()` special function that receives eth and calls stake()
     mapping ( address => uint256 ) public balances;
 
-    uint256 public constant threshold = 1 ether;
+    uint256 public constant threshold = 0.05 ether;
     uint256 public deadline = block.timestamp + 72 hours; //tracks the deadline for staking
     bool public openForWithdraw; //indicates if a user can withdraw funds
 

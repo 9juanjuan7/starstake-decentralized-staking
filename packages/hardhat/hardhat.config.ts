@@ -39,6 +39,10 @@ const config: HardhatUserConfig = {
       },
     ],
   },
+  typechain: {
+    outDir: "typechain",
+    target: "ethers-v6", // instead of 'ethers-v5'
+  },  
   defaultNetwork: "sepolia",
   namedAccounts: {
     deployer: {
