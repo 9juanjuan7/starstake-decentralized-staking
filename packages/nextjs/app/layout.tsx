@@ -6,14 +6,14 @@ import "~~/styles/globals.css";
 
 export const metadata = {
   title: "StarStake | Secure Staking",
-  description: "Decentralized Ethereum staking platform on Sepolia Testnet.",
+  description: "A decentralized Ethereum staking platform on Sepolia Testnet.",
   icons: {
     icon: "/favicon.png", 
     shortcut: "/favicon.png",
     apple: "/favicon.png",
   },
   openGraph: {
-    title: "StarStake | Decentralized Staking App",
+    title: "StarStake | Secure Staking",
     description: "A decentralized Ethereum staking platform on Sepolia Testnet.",
     url: process.env.NEXT_PUBLIC_APP_URL || "https://starstake-juans-projects-42cd7285.vercel.app/", // Fallback for local dev
     type: "website",
