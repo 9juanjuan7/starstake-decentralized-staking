@@ -5,7 +5,7 @@ import "~~/styles/globals.css";
 import { getMetadata } from "~~/utils/scaffold-eth/getMetadata";
 
 export const metadata = getMetadata({
-  title: "Challenge #1 | SpeedRunEthereum",
+  title: "StarStake | Secure Staking",
   description: "Built with 🏗 Scaffold-ETH 2",
 });
 
