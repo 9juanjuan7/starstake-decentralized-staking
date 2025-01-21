@@ -5,7 +5,7 @@
 - **Trustless Staking**: Stake Ether into a decentralized smart contract.
 - **Goal Automation**: Funds execute automatically if staking thresholds are met.
 - **Fair Withdrawals**: Withdraw your stake if thresholds aren’t achieved.
-- **User-Friendly Interface**: A clean, responsive Web3 app built with modern technologies.
+- **User-Friendly Interface**: A clean, responsive Web3 app built with modern tools.
 
 ## 🛠️ Tech Stack
 - **Frontend**: React, Next.js, Tailwind CSS
