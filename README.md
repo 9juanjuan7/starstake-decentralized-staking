@@ -42,12 +42,7 @@ Check out the live app here: [StarStake](https://starstake-bay.vercel.app/)
 ## License
 - This project is licensed under the MIT License.
 
-## 🏗 About Scaffold-ETH 2
-
-<h4 align="center">
-  <a href="https://docs.scaffoldeth.io">Documentation</a> |
-  <a href="https://scaffoldeth.io">Website</a>
-</h4>
+# 🏗 About Scaffold-ETH 2
 Scaffold-ETH 2 was used as the foundation for building StarStake. It's an open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain.
 
 Key Features of Scaffold-ETH 2:
@@ -56,3 +51,9 @@ Key Features of Scaffold-ETH 2:
 - 🧱 [**Components**](https://docs.scaffoldeth.io/components/): Collection of common web3 components to quickly build your frontend.
 - 🔥 **Burner Wallet & Local Faucet**: Quickly test your application with a burner wallet and local faucet.
 - 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with the Ethereum network.
+
+For more information: 
+<h4 align="center">
+  <a href="https://docs.scaffoldeth.io">Documentation</a> |
+  <a href="https://scaffoldeth.io">Website</a>
+</h4>
