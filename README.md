@@ -1,4 +1,4 @@
-# StarStake
+# 🌟 StarStake
 **StarStake** is a decentralized Ethereum staking platform that empowers users to stake Ether securely, pool funds for shared goals, and withdraw if conditions aren’t met. Built on the Sepolia Testnet, this DApp showcases the potential of decentralized finance (DeFi) and Ethereum smart contracts.
 
 ## Features
