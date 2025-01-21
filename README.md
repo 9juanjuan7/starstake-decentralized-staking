@@ -62,3 +62,7 @@ Key Features of Scaffold-ETH 2:
 For more information: 
 - <a href="https://docs.scaffoldeth.io">Documentation</a>
 - <a href="https://scaffoldeth.io">Website</a>
+
+## Contact
+- <a href="https://www.linkedin.com/in/juan-rea7/">LinkedIn</a>
+- Email: jerea@ualberta.ca
