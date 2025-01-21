@@ -42,7 +42,7 @@ Check out the live app here: [StarStake](https://starstake-bay.vercel.app/)
 ## License
 - This project is licensed under the MIT License.
 
-# 🏗 About Scaffold-ETH 2
+## 🏗 About Scaffold-ETH 2
 
 <h4 align="center">
   <a href="https://docs.scaffoldeth.io">Documentation</a> |
