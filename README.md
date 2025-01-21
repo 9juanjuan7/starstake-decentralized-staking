@@ -65,4 +65,4 @@ For more information:
 
 ## Contact
 - <a href="https://www.linkedin.com/in/juan-rea7/">LinkedIn</a>
-- Email: jerea@ualberta.ca
+- jerea@ualberta.ca
