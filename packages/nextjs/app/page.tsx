@@ -31,7 +31,7 @@ const Home: NextPage = () => {
               </h1>
               <div className="flex flex-col items-center justify-center">
                 <Image
-                  src="/starfish.png"
+                  src="/starstake-aquarium.png"
                   width="727"
                   height="231"
                   alt="Comical starfish holding money underwater"

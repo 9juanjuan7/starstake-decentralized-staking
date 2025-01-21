@@ -8,7 +8,7 @@ const titleTemplate = "%s | SpeedRunEthereum";
 export const getMetadata = ({
   title,
   description,
-  imageRelativePath = "/thumbnail-challenge-1.png",
+  imageRelativePath = "/starstake-aquarium.png",
 }: {
   title: string;
   description: string;
@@ -44,7 +44,7 @@ export const getMetadata = ({
       images: [imageUrl],
     },
     icons: {
-      icon: [{ url: "/favicon.png", sizes: "32x32", type: "image/png" }],
+      icon: [{ url: "/ethgold.png", sizes: "32x32", type: "image/png" }],
     },
   };
 };
