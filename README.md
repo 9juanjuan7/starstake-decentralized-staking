@@ -22,7 +22,10 @@ Check out the live app here: [StarStake](https://starstake-bay.vercel.app/)
 3. **Stake Funds**: Click "STAKE 0.01 ETHER!" to stake and confirm the transaction.
 4. **Monitor Progress**: Check if the goal threshold is met or withdraw your stake if it isn’t.
 5. **Disconnect Wallet**.
-   
+
+## 📜 License
+- This project is licensed under the [MIT License](LICENCE).
+  
 ## 🔧 Developer Guide
 1. Clone the repository:
    ```bash
@@ -46,9 +49,6 @@ Check out the live app here: [StarStake](https://starstake-bay.vercel.app/)
    ```bash
    http://localhost:3000
    
-## 📜 License
-- This project is licensed under the [MIT License](LICENCE).
-
 # 🏗 About Scaffold-ETH 2
 Scaffold-ETH 2 was used as the foundation for building StarStake. It's an open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain.
 
