@@ -47,7 +47,7 @@ Check out the live app here: [StarStake](https://starstake-bay.vercel.app/)
    http://localhost:3000
    
 ## 📜 License
-- This project is licensed under the [MIT License](LICENSE).
+- This project is licensed under the [MIT License](LICENCE).
 
 # 🏗 About Scaffold-ETH 2
 Scaffold-ETH 2 was used as the foundation for building StarStake. It's an open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain.
