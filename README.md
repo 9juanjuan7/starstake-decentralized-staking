@@ -1,22 +1,22 @@
 # 🌟 StarStake
 **StarStake** is a decentralized Ethereum staking platform that empowers users to stake Ether securely, pool funds for shared goals, and withdraw if conditions aren’t met. Built on the Sepolia Testnet, this DApp showcases the potential of decentralized finance (DeFi) and Ethereum smart contracts.
 
-## Features
+## 🛡️ Features
 - **Trustless Staking**: Stake Ether into a decentralized smart contract.
 - **Goal Automation**: Funds execute automatically if staking thresholds are met.
 - **Fair Withdrawals**: Withdraw your stake if thresholds aren’t achieved.
 - **User-Friendly Interface**: A clean, responsive Web3 app built with modern technologies.
 
-## Tech Stack
+## 🛠️ Tech Stack
 - **Frontend**: React, Next.js, Tailwind CSS
 - **Blockchain**: Ethereum, Solidity
 - **Development**: Hardhat
 - **Deployment**: Vercel (Frontend) & Sepolia Testnet (Smart Contracts)
 
-## Live Demo
+## ✅ Live Demo
 Check out the live app here: [StarStake](https://starstake-bay.vercel.app/)
 
-## Getting Started
+## 🤖 Getting Started
 1. Clone the repository:
    ```bash
    git clone https://github.com/9juanjuan7/challenge-1-decentralized-staking.git
