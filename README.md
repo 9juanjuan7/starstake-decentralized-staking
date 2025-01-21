@@ -29,10 +29,10 @@ Check out the live app here: [StarStake](https://starstake-bay.vercel.app/)
 ## 🔧 Developer Guide
 1. Clone the repository:
    ```bash
-   git clone https://github.com/9juanjuan7/challenge-1-decentralized-staking.git
+   git clone https://github.com/9juanjuan7/starstake-decentralized-staking.git
 2. Navigate to the project directory:
    ```bash
-   cd challenge-1-decentralized-staking
+   cd starstake-decentralized-staking
 3. Install dependencies:
    ```bash
    yarn install
