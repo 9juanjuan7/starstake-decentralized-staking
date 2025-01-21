@@ -53,7 +53,7 @@ Key Features of Scaffold-ETH 2:
 - 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with the Ethereum network.
 
 For more information: 
-<h4 align="center">
+<h4 align="left">
   <a href="https://docs.scaffoldeth.io">Documentation</a> |
   <a href="https://scaffoldeth.io">Website</a>
 </h4>
