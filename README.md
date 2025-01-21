@@ -49,7 +49,7 @@ Check out the live app here: [StarStake](https://starstake-bay.vercel.app/)
    ```bash
    http://localhost:3000
    
-# 🏗 About Scaffold-ETH 2
+## 🏗 About Scaffold-ETH 2
 Scaffold-ETH 2 was used as the foundation for building StarStake. It's an open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain.
 
 Key Features of Scaffold-ETH 2:
@@ -63,6 +63,6 @@ For more information:
 - <a href="https://docs.scaffoldeth.io">Documentation</a>
 - <a href="https://scaffoldeth.io">Website</a>
 
-## Contact
+## 🔗 Contact
 - <a href="https://www.linkedin.com/in/juan-rea7/">LinkedIn</a>
 - jerea@ualberta.ca
