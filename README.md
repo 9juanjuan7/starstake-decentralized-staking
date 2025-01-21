@@ -42,13 +42,13 @@ Check out the live app here: [StarStake](https://starstake-bay.vercel.app/)
 ## License
 - This project is licensed under the MIT License.
 
-# 🏗 Scaffold-ETH 2
+# 🏗 About Scaffold-ETH 2
 
 <h4 align="center">
   <a href="https://docs.scaffoldeth.io">Documentation</a> |
   <a href="https://scaffoldeth.io">Website</a>
 </h4>
-
+Scaffold-ETH 2 was used as the foundation for building StarStake.
 🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
 
 ⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, Viem, and Typescript.
