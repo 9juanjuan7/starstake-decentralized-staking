@@ -17,11 +17,11 @@
 Check out the live app here: [StarStake](https://starstake-bay.vercel.app/)
 
 ## 🤖 How to Use
-1. Connect Wallet: Use <a href="https://metamask.io/">MetaMask</a> or any Web3 wallet to connect to the platform.
-2. Get Test ETH: Use the <a href="https://www.alchemy.com/faucets/ethereum-sepolia">Sepolia Faucet</a> to get test Ether.
-3. Stake Funds: Click "STAKE 0.01 ETHER!" to stake and confirm the transaction.
-4. Monitor Progress: Check if the goal threshold is met or withdraw your stake if it isn’t.
-5. Disconnect Wallet.
+1. **Connect Wallet**: Use <a href="https://metamask.io/">MetaMask</a> or any Web3 wallet to connect to the platform.
+2. **Get Test ETH**: Use the <a href="https://www.alchemy.com/faucets/ethereum-sepolia">Sepolia Faucet</a> to get test Ether.
+3. **Stake Funds**: Click "STAKE 0.01 ETHER!" to stake and confirm the transaction.
+4. **Monitor Progress**: Check if the goal threshold is met or withdraw your stake if it isn’t.
+5. **Disconnect Wallet**.
    
 ## 🔧 Developer Guide
 1. Clone the repository:
