@@ -9,7 +9,7 @@
 
 ## 🛠️ Tech Stack
 - **Frontend**: React, Next.js, Tailwind CSS
-- **Blockchain**: Ethereum, Solidity
+- **Blockchain**: Ethereum, Solidity, Ethers.js
 - **Development**: Hardhat
 - **Deployment**: Vercel (Frontend) & Sepolia Testnet (Smart Contracts)
 
